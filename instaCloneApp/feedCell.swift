@@ -10,6 +10,10 @@ import UIKit
 
 class feedCell: UITableViewCell {
 
+    @IBOutlet weak var imagesView: UIImageView!
+    @IBOutlet weak var emailLabel: UILabel!
+    @IBOutlet weak var commentLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

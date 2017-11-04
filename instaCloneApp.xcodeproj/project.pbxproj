@@ -8,22 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		2E0109371F70858C006FCB37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0109361F70858C006FCB37 /* AppDelegate.swift */; };
-		2E0109391F70858C006FCB37 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E0109381F70858C006FCB37 /* FirstViewController.swift */; };
-		2E01093B1F70858C006FCB37 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E01093A1F70858C006FCB37 /* SecondViewController.swift */; };
 		2E01093E1F70858C006FCB37 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E01093C1F70858C006FCB37 /* Main.storyboard */; };
 		2E0109401F70858C006FCB37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2E01093F1F70858C006FCB37 /* Assets.xcassets */; };
 		2E0109431F70858C006FCB37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E0109411F70858C006FCB37 /* LaunchScreen.storyboard */; };
+		2E01094B1F7085FD006FCB37 /* feedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E01094A1F7085FD006FCB37 /* feedVC.swift */; };
+		2E01094D1F708614006FCB37 /* uploadVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E01094C1F708614006FCB37 /* uploadVC.swift */; };
+		2E01094F1F708AA5006FCB37 /* singInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E01094E1F708AA5006FCB37 /* singInVC.swift */; };
+		2E0109511F708CF5006FCB37 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E0109501F708CEE006FCB37 /* GoogleService-Info.plist */; };
+		2E4B604E1FAA40CB00FAC90F /* selectImage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2E4B604D1FAA40C600FAC90F /* selectImage.jpg */; };
+		2E4B60501FAA62AE00FAC90F /* feedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4B604F1FAA62AE00FAC90F /* feedCell.swift */; };
+		2EE92E8C1FABF8F700F59298 /* SDWebImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE92E8B1FABF8F700F59298 /* SDWebImage.framework */; };
+		C57559A4E6E2786759095973 /* Pods_instaCloneApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1B7708DFB3E3D106B5146B9F /* Pods_instaCloneApp.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B7708DFB3E3D106B5146B9F /* Pods_instaCloneApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_instaCloneApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EDCB9BEC64189B4AE9E092B /* Pods-instaCloneApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaCloneApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-instaCloneApp/Pods-instaCloneApp.debug.xcconfig"; sourceTree = "<group>"; };
 		2E0109331F70858C006FCB37 /* instaCloneApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = instaCloneApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0109361F70858C006FCB37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2E0109381F70858C006FCB37 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		2E01093A1F70858C006FCB37 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		2E01093D1F70858C006FCB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2E01093F1F70858C006FCB37 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2E0109421F70858C006FCB37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2E0109441F70858C006FCB37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E01094A1F7085FD006FCB37 /* feedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedVC.swift; sourceTree = "<group>"; };
+		2E01094C1F708614006FCB37 /* uploadVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadVC.swift; sourceTree = "<group>"; };
+		2E01094E1F708AA5006FCB37 /* singInVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = singInVC.swift; sourceTree = "<group>"; };
+		2E0109501F708CEE006FCB37 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		2E4B604D1FAA40C600FAC90F /* selectImage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = selectImage.jpg; sourceTree = "<group>"; };
+		2E4B604F1FAA62AE00FAC90F /* feedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = feedCell.swift; sourceTree = "<group>"; };
+		2EE92E8B1FABF8F700F59298 /* SDWebImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SDWebImage.framework; path = "Pods/../build/Debug-iphoneos/SDWebImage/SDWebImage.framework"; sourceTree = "<group>"; };
+		9B441047FD99C955BDD2DF28 /* Pods-instaCloneApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-instaCloneApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-instaCloneApp/Pods-instaCloneApp.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +45,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C57559A4E6E2786759095973 /* Pods_instaCloneApp.framework in Frameworks */,
+				2EE92E8C1FABF8F700F59298 /* SDWebImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +58,8 @@
 			children = (
 				2E0109351F70858C006FCB37 /* instaCloneApp */,
 				2E0109341F70858C006FCB37 /* Products */,
+				C70FFB3164986996E3A26B0F /* Pods */,
+				34EF302B0F82FEC9A554374C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +74,37 @@
 		2E0109351F70858C006FCB37 /* instaCloneApp */ = {
 			isa = PBXGroup;
 			children = (
+				2E01094C1F708614006FCB37 /* uploadVC.swift */,
+				2E01094A1F7085FD006FCB37 /* feedVC.swift */,
+				2E4B604D1FAA40C600FAC90F /* selectImage.jpg */,
 				2E0109361F70858C006FCB37 /* AppDelegate.swift */,
-				2E0109381F70858C006FCB37 /* FirstViewController.swift */,
-				2E01093A1F70858C006FCB37 /* SecondViewController.swift */,
+				2E01094E1F708AA5006FCB37 /* singInVC.swift */,
 				2E01093C1F70858C006FCB37 /* Main.storyboard */,
+				2E4B604F1FAA62AE00FAC90F /* feedCell.swift */,
 				2E01093F1F70858C006FCB37 /* Assets.xcassets */,
 				2E0109411F70858C006FCB37 /* LaunchScreen.storyboard */,
 				2E0109441F70858C006FCB37 /* Info.plist */,
+				2E0109501F708CEE006FCB37 /* GoogleService-Info.plist */,
 			);
 			path = instaCloneApp;
+			sourceTree = "<group>";
+		};
+		34EF302B0F82FEC9A554374C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE92E8B1FABF8F700F59298 /* SDWebImage.framework */,
+				1B7708DFB3E3D106B5146B9F /* Pods_instaCloneApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C70FFB3164986996E3A26B0F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1EDCB9BEC64189B4AE9E092B /* Pods-instaCloneApp.debug.xcconfig */,
+				9B441047FD99C955BDD2DF28 /* Pods-instaCloneApp.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +114,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2E0109471F70858C006FCB37 /* Build configuration list for PBXNativeTarget "instaCloneApp" */;
 			buildPhases = (
+				70F165C6C16AE47B26C49BCD /* [CP] Check Pods Manifest.lock */,
 				2E01092F1F70858C006FCB37 /* Sources */,
 				2E0109301F70858C006FCB37 /* Frameworks */,
 				2E0109311F70858C006FCB37 /* Resources */,
+				CDA9EAD1C639C9E9F7AA0929 /* [CP] Embed Pods Frameworks */,
+				E1537F7D07D9AB60127D84EF /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,7 +168,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4B604E1FAA40CB00FAC90F /* selectImage.jpg in Resources */,
 				2E0109431F70858C006FCB37 /* LaunchScreen.storyboard in Resources */,
+				2E0109511F708CF5006FCB37 /* GoogleService-Info.plist in Resources */,
 				2E0109401F70858C006FCB37 /* Assets.xcassets in Resources */,
 				2E01093E1F70858C006FCB37 /* Main.storyboard in Resources */,
 			);
@@ -133,14 +178,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		70F165C6C16AE47B26C49BCD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-instaCloneApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA9EAD1C639C9E9F7AA0929 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-instaCloneApp/Pods-instaCloneApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/libwebp/libwebp.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/libwebp.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instaCloneApp/Pods-instaCloneApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E1537F7D07D9AB60127D84EF /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-instaCloneApp/Pods-instaCloneApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2E01092F1F70858C006FCB37 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2E01093B1F70858C006FCB37 /* SecondViewController.swift in Sources */,
+				2E01094D1F708614006FCB37 /* uploadVC.swift in Sources */,
+				2E4B60501FAA62AE00FAC90F /* feedCell.swift in Sources */,
+				2E01094B1F7085FD006FCB37 /* feedVC.swift in Sources */,
+				2E01094F1F708AA5006FCB37 /* singInVC.swift in Sources */,
 				2E0109371F70858C006FCB37 /* AppDelegate.swift in Sources */,
-				2E0109391F70858C006FCB37 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,9 +386,14 @@
 		};
 		2E0109481F70858C006FCB37 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EDCB9BEC64189B4AE9E092B /* Pods-instaCloneApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KLM646LUH9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+				);
 				INFOPLIST_FILE = instaCloneApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MuratErhan.instaCloneApp;
@@ -289,9 +405,14 @@
 		};
 		2E0109491F70858C006FCB37 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B441047FD99C955BDD2DF28 /* Pods-instaCloneApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = KLM646LUH9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)/**",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/SDWebImage",
+				);
 				INFOPLIST_FILE = instaCloneApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.MuratErhan.instaCloneApp;
